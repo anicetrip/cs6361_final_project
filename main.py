@@ -34,6 +34,7 @@ def main():
         check_for_japanese.print_japanese_check(japanese_result)
 
 
+
 def judge_presentage(pre_judging_list):
     most_possible_result = [0,"Na",0]
     for language in pre_judging_list:
