@@ -22,5 +22,7 @@ def get_jap_charset_list():
     start = '3040'
     end = '31FF'
     chars = get_charset(start, end)
-    print(chars)
+    # print(chars)
+    return chars
 
+# get_jap_charset_list()
