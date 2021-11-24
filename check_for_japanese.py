@@ -3,6 +3,7 @@
 :Author:  17566
 :Create:  2021/11/22 13:43
 """
+import KR_JP_characters
 from lists_japanese import hiragana
 from lists_japanese import katakana
 
@@ -11,7 +12,7 @@ from lists_japanese import katakana
 
 def check_presentation(sentences):
     # Make a list to store a combined list of hiragana and katakana characters
-    kana = []
+    kana = KR_JP_characters.get_jap_charset_list()
     # the return form
     check_result_information = [0,"JP",0]
     # Combine the two alphabets into one big list
